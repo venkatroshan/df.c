@@ -2,15 +2,15 @@
 void main()
 {
 char c;
-printf("enter the character");
+printf("enter  characters");
 scanf("%c",&c);
 if(c>='a' && c<='z')
 {
-printf("%c alphabet",c);
+printf("%c alphabets",c);
 }
 else
 {
-printf("%c not alphabet",c);
+printf("%c not alphabets",c);
 }
 getch();
 }
